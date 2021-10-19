@@ -1,6 +1,6 @@
 import consumer from "./consumer"
 
-const roomClient = consumer.subscriptions.create("RoomChannel", {
+/*const roomClient = consumer.subscriptions.create("RoomChannel", {
   connected() {
     // Called when the subscription is ready for use on the server
   },
@@ -25,5 +25,5 @@ document.addEventListener("turbolinks:load", function(){
       message: prompt("Escribe el mensaje")
     });
   });
-})
+})*/
 
